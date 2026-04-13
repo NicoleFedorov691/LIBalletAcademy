@@ -1127,7 +1127,7 @@ footer p {
     letter-spacing: 1.2px;
     white-space: nowrap;
   }
-  @media (max-width: 768px) {
+ 
 
   /* ================= HERO IMAGE FIX ================= */
   .hero-image img {
@@ -1183,5 +1183,4 @@ footer p {
     width: 100%;
     max-width: 250px;
   }
-}
 }
