@@ -256,7 +256,7 @@ body {
 } */
 
 
-/* NAV LINKS */
+/* NAV LINKS
 .nav-inner a {
   position: relative;
   text-decoration: none;
@@ -267,7 +267,7 @@ body {
   text-transform: uppercase;
 
   transition: color 0.25s ease;
-}
+} */
 
 /* underline */
 .nav-inner a::after {
@@ -400,7 +400,7 @@ body {
 
 .about-intro h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 36px;
+  font-size: 28px;
   letter-spacing: 4px;
   text-transform: uppercase;
   margin-bottom: 25px;
@@ -443,7 +443,7 @@ body {
 
 .about-intro h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 36px;
+  font-size: 28px;
   letter-spacing: 4px;
   text-transform: uppercase;
   margin-bottom: 25px;
@@ -777,7 +777,7 @@ body {
 /* TITLE */
 .rental-title {
   font-family: 'Playfair Display', serif;
-  font-size: 36px;
+  font-size: 28px;
   letter-spacing: 4px;
   text-transform: uppercase;
   margin-bottom: 30px;
@@ -792,7 +792,7 @@ body {
 
 .rental-text h2 {
   font-family: 'Playfair Display', serif;
-  font-size: 24px;
+  font-size: 22px;
   letter-spacing: 3px;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -1062,7 +1062,7 @@ footer {
   padding: 5px;
   text-align: center;
 
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #777;
@@ -1124,7 +1124,7 @@ footer p {
   }
 
   .header-right a {
-    font-size: 13px;
+    font-size: 11px;
     letter-spacing: 1.2px;
     white-space: nowrap;
   }
