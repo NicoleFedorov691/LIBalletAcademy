@@ -1190,10 +1190,6 @@ footer p {
     letter-spacing: 2px;
   }
 
-  /* ================= PAGE SPACING ================= */
-  .page-section {
-    padding: 50px 15px;
-  }
 
   /* ================= CONTACT LAYOUT FIX ================= */
   .contact-container {
@@ -1227,7 +1223,7 @@ footer p {
   /* OPTION A: if you add page-specific body classes (BEST WAY) */
   body.classes-page .hero-image,
   body.rental-page .hero-image {
-    display: none;
+    display: none
   }
 
   /* ================= RENTAL IMAGES FIX ================= */
