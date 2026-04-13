@@ -1219,4 +1219,27 @@ footer p {
     width: 100%;
     max-width: 250px;
   }
+  
+
+  /* ================= HERO IMAGES HIDE (SPECIFIC PAGES) ================= */
+  /* add a body class or page-specific hook if needed */
+
+  /* OPTION A: if you add page-specific body classes (BEST WAY) */
+  body.classes-page .hero-image,
+  body.rental-page .hero-image {
+    display: none;
+  }
+
+  /* ================= RENTAL IMAGES FIX ================= */
+  .rental-images {
+    flex-direction: column;   /* stack vertically */
+    gap: 15px;
+    align-items: center;
+  }
+
+  .rental-images img {
+    width: 90%;              /* make them bigger */
+    max-width: 500px;
+  }
 }
+
