@@ -432,7 +432,7 @@ body {
 /* ================= ABOUT SECTION ================= */
 
 .about-section {
-  padding: 80px 20px;
+  padding: 60px 20px;
 }
 
 /* INTRO TEXT */
@@ -529,7 +529,8 @@ body {
 /* ================= CLASSES PAGE ================= */
 
 .page-section {
-  padding: 80px 0;
+  padding: 60px 0;
+
   text-align: center;
 }
 
@@ -770,7 +771,7 @@ body {
 /* ================= STUDIO RENTAL ================= */
 
 .rental-section {
-  padding: 80px 20px;
+  padding: 60px 20px;
 }
 
 /* TITLE */
@@ -1130,15 +1131,50 @@ footer p {
  
 
   /* ================= HERO IMAGE FIX ================= */
+ /* ================= HERO FIX (IMPORTANT) ================= */
+  .hero-image {
+    margin-bottom: 10px;
+  }
+
   .hero-image img {
     width: 100%;
-    height: auto;
+    height: 45vh;        /* makes it feel like a true hero */
+    object-fit: cover;   /* fills space nicely */
     display: block;
   }
 
-  .hero-image {
-    margin-bottom: 20px;
+  /* ================= REDUCE VERTICAL SPACING ================= */
+
+  .page-section {
+    padding: 45px 15px;   /* was 80px → too large */
   }
+
+  .section-title {
+    margin-bottom: 10px;
+  }
+
+  .section-intro,
+  .section-text {
+    margin-bottom: 10px;
+  }
+
+  /* ================= IMAGE BLOCK SPACING ================= */
+
+  .academy-images {
+    margin: 25px 0;      /* was 45px */
+    gap: 12px;
+  }
+
+  /* ================= PRIVATE / OTHER SECTIONS ================= */
+
+  .private-section {
+    margin: 30px auto 10px auto;
+  }
+
+  .announcement-box {
+    margin: 25px auto;
+  }
+
 
   /* ================= HEADINGS FIX ================= */
   .section-title,
