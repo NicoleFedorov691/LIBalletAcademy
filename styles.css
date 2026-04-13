@@ -1127,4 +1127,61 @@ footer p {
     letter-spacing: 1.2px;
     white-space: nowrap;
   }
+  @media (max-width: 768px) {
+
+  /* ================= HERO IMAGE FIX ================= */
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .hero-image {
+    margin-bottom: 20px;
+  }
+
+  /* ================= HEADINGS FIX ================= */
+  .section-title,
+  .rental-title,
+  .about-intro h1,
+  .contact-form h2 {
+    font-size: 22px;      /* was too large */
+    letter-spacing: 2px;
+  }
+
+  .sub-title {
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+
+  /* ================= PAGE SPACING ================= */
+  .page-section {
+    padding: 50px 15px;
+  }
+
+  /* ================= CONTACT LAYOUT FIX ================= */
+  .contact-container {
+    flex-direction: column;   /* stack instead of side-by-side */
+    gap: 25px;
+  }
+
+  .contact-image {
+    width: 100%;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  input,
+  textarea {
+    font-size: 14px;  /* prevents tiny inputs */
+  }
+
+  /* ================= MAKE BUTTONS EASIER ON MOBILE ================= */
+  button {
+    width: 100%;
+    max-width: 250px;
+  }
+}
 }
