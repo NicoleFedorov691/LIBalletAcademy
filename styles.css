@@ -1082,3 +1082,26 @@ footer p {
   margin: 0;
   line-height: 1.2;
 }
+
+/* ================= MOBILE NAV FIX ================= */
+@media (max-width: 768px) {
+
+  /* make nav readable */
+  .header-right a {
+    font-size: 14px;      /* bigger text */
+    letter-spacing: 2px;
+  }
+
+  /* give nav more breathing room */
+  .header-right {
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* slightly scale up overall text */
+  body {
+    font-size: 14px;
+  }
+
+}
