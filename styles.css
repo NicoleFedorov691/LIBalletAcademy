@@ -1086,19 +1086,45 @@ footer p {
 /* ================= MOBILE NAV FIX ================= */
 @media (max-width: 768px) {
 
+  /* compact header */
   .header-inner {
     flex-direction: column;
-    gap: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 12px 15px;
+    gap: 8px;
   }
 
+  /* smaller logo */
+  .header-left img {
+    height: 55px;
+    width: auto;
+  }
+
+  /* tighter title */
+  .site-title .line-1 {
+    font-size: 18px;
+    letter-spacing: 1.5px;
+  }
+
+  .site-title .line-2 {
+    font-size: 13px;
+    letter-spacing: 1.5px;
+  }
+
+  /* nav clean + compact */
   .header-right {
+    display: flex;
     justify-content: center;
-    flex-wrap: wrap;     /* controlled wrap */
+    flex-wrap: wrap;
     gap: 12px;
+    width: 100%;
+    margin-top: 5px;
   }
 
   .header-right a {
     font-size: 13px;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.2px;
+    white-space: nowrap;
   }
 }
