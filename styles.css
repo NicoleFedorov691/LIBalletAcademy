@@ -1086,22 +1086,19 @@ footer p {
 /* ================= MOBILE NAV FIX ================= */
 @media (max-width: 768px) {
 
-  /* make nav readable */
-  .header-right a {
-    font-size: 14px;      /* bigger text */
-    letter-spacing: 2px;
+  .header-inner {
+    flex-direction: column;
+    gap: 10px;
   }
 
-  /* give nav more breathing room */
   .header-right {
-    gap: 16px;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;     /* controlled wrap */
+    gap: 12px;
   }
 
-  /* slightly scale up overall text */
-  body {
-    font-size: 14px;
+  .header-right a {
+    font-size: 13px;
+    letter-spacing: 1.5px;
   }
-
 }
